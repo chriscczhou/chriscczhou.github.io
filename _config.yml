@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "ChrisccZhou"
   avatar : "/assets/images/20221024142807.jpg"
-  bio    : "Web Security | Web3 Security | Python Dev | Solidity Dev."
+  bio    : "Web3 Security."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
