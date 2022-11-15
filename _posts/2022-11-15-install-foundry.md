@@ -2,7 +2,7 @@
 title: "安装foundry框架"
 date: 2022-11-15T0:18:30-04:00
 categories:
-  - Tools
+  - blog
 tags:
   - Tools
 ---
