@@ -2,7 +2,7 @@
 title: "中心化交易所资金归集时的Gas测试"
 date: 2023-06-29T0:19:30-04:00
 categories:
-  - experience
+  - blog
 tags:
   - experience
 ---
