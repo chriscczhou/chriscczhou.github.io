@@ -2,9 +2,9 @@
 title: "中心化交易所提现测试-Gas消耗测试"
 date: 2023-06-29T0:18:30-04:00
 categories:
-  - blog
+  - experience
 tags:
-  - BugBounty
+  - experience
 ---
 
 ## 中心化交易所提现测试-Gas消耗测试
