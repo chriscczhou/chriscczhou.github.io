@@ -16,7 +16,7 @@ tags:
 从下图可以看到攻击者的地址多次调用了Claim方法。
 ![image](https://github.com/chriscczhou/chriscczhou.github.io/assets/108380177/6ce2f0ea-eeeb-4070-addc-318fbb8fd590)
 
-查看合约的Claim方法代码分析：
+下面来看看合约的Claim方法有什么猫腻：
 ```
     function claim(
         address[] memory _contracts,      // NFT contracts: azuki + beanz + elementals
@@ -66,7 +66,7 @@ tags:
     }
 ```
 
-发现`signatureClaimed[_signature] = true; `，这行用来记录签名是否领取过空投，但是却没有对这个`signatureClaimed[_signature] `进行判断，导致同一个签名可以重复领取的问题。攻击者发现了这个问题，然后多次领取空投，砸盘套现。
+发现`signatureClaimed[_signature] = true; `这行用来记录签名是否领取过空投，但是却没有对这个`signatureClaimed[_signature] `进行判断，导致同一个签名可以重复领取的问题。攻击者发现了这个问题，多次领取空投，最后砸盘套现。
 
 ### 攻击复现：
 使用Foundry复现，使用同一个签名领取了10次，最终余额为312500：
