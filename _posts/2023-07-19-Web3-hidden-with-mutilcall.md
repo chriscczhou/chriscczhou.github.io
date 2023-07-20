@@ -45,6 +45,7 @@ multicall 合约通过将多个函数调用的参数封装为一个数组，然�
 
 ![image](https://github.com/chriscczhou/chriscczhou.github.io/assets/108380177/3fbc51a3-3ff1-40a8-87e4-dd3087078d5c)
 
+经过测试发现个有趣的事，居然在bscscan上都没被归类为**Internal Transactions**，光看区块链浏览器无法发现，这可能会使项目方偷偷做坏事带来了便利。
 
 
 
