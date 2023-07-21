@@ -7,7 +7,6 @@ tags:
   - experience
 ---
 
-## delegatecall与call注入
 
 ### delegatecall与call的区别
 
