@@ -1,11 +1,10 @@
 ---
-title: "Windows 安装 solana cli"
+title: "Windows安装solana cli"
 date: 2024-02-10T0:19:30-04:00
 categories:
   - blog
 tags:
-  - solana
-excerpt_separator: ""
+  - experience
 ---
 
 ### Windows 安装 solana cli
