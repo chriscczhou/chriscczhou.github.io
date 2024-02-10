@@ -7,7 +7,6 @@ tags:
   - solana
 ---
 
-
 ### Windows 安装 solana cli
 1. 去github查询最新的solana版本：https://github.com/solana-labs/solana/releases
 2. 替换版本然后下载：https://release.solana.com/v1.17.18/solana-install-init-x86_64-pc-windows-msvc.exe
