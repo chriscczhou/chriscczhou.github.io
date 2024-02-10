@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - solana
+excerpt_separator: ""
 ---
 
 ### Windows 安装 solana cli
